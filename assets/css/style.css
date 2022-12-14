@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900');
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+html,
+body {
+	height: 100%
+}
+body {
+	font-family: 'Poppins', serif;
+	background-color: #fff;
+	font-weight: 400;
+	font-style: normal;
+	font-size:17px;
+	line-height: 1.7em;
+	color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 500;
+	padding:0;
+	font-family: 'Raleway', serif;
+}
+p {
+	font-size: 14px;
+	margin-bottom: 0px;
+	line-height:28px;
+	color:#646f79;
+	letter-spacing:1px
+}
+
+a,
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: .4s;
+	transition: .4s
+}
+a:hover {
+	color: #FF7200
+}
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pl-50 {
+	padding-left: 50px;
+}
+
+.pr-50 {
+	padding-right: 50px;
+}
+
+a.box-btn {
+  background-color:#275B0E;
+  padding:15px 30px 13px 30px;
+  display: inline-block;
+  color: #fff;
+  border-radius:2px;
+  font-size:18px;
+  width: 100%;
+}
+a.border-btn {
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  border: 1px solid tomato;
+  border-radius: 3px;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition:.3s
+}
+
+/* 1. Section Title CSS */
+
+.section-title h4 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #777;
+}
+.section-title h2 {
+	font-size: 32px;
+	text-transform: capitalize;
+	margin: 15px 0;
+	display: inline-block;
+	position: relative;
+	font-weight: 700;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.section-title p {
+	font-weight: 300;
+	font-size: 14px;
+}
+.black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
+  color:#fff
+}
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  bottom: 0;
+  left: 50%;
+  margin-left: -75px;
+}
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #e16038;
+  border: darkblue;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title {
+  margin-bottom: 70px;
+}
+
+/* 2. Header Area CSS */
+
+.header {
+  background-color: #000;
+}
+.header a {
+  color: #fff;
+}
+#navbarNav ul li.current a {
+	color: #e16038;
+	font-weight: bold;
+}
+a.navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#navbarNav ul li a {
+	padding: 10px;
+	display: block;
+	font-size: 18px;
+}
+.icons{
+	flex-direction: row!important;
+	justify-content: flex-end;
+	vertical-align: middle;
+}
+.cart-icon{
+	margin: 0px 5px;
+}
+#navbarNav{
+	margin-top:75px;
+}
+/* 3. Welcome Area CSS */
+
+.welcome-area {
+  position: relative;
+  z-index: 2;
+  background-image: url("../img/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  color: #fff;
+}
+.welcome-area:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  z-index: -1;
+  opacity: .9;
+}
+.flex-center {
+	height:100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome-content h4 {
+  font-weight: 300;
+  font-size: 25px;
+}
+.welcome-content h2 {
+	font-size: 50px;
+	text-transform: capitalize;
+	margin: 20px 0;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.welcome-content p {
+  color: #bbb;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.welcome-content a {
+  margin: 0 5px;
+  margin-top: 40px;
+}
+
+/* 4. About Area CSS */
+
+.single-about i {
+  font-size: 25px;
+}
+.single-about h4 {
+	margin: 20px 0;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 22px;
+}
+.single-about a {
+  text-transform: capitalize;
+  margin-top: 10px;
+  display: block;
+  color: tomato;
+}
+.single-about i {
+	font-size: 36px;
+}
+
+.about-text h4 {
+  text-transform: capitalize;
+  font-size: 28px;
+  margin-bottom:20px;
+  font-weight: 700;
+}
+.about-text p {
+  margin-bottom: 5px;
+}
+.about-text ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  float: left;
+  width: 50%;
+  margin: 15px 0;
+}
+.about-text ul li {
+	margin-bottom: 10px;
+	color: #646f79;
+	font-size:14px;
+}
+.about-text ul li, .single-feature ul li {
+	margin-bottom: 10px;
+	color: #646f79;
+	font-size:14px;
+}
+.about-text ul li i, .single-feature ul li i {
+  padding-right: 5px;
+  color:#646f79
+}
+.about-text a{
+  margin-top: 20px;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.graybox{
+	background-color: #d9d9d9;
+	padding:40px 20px;
+	margin-bottom:35px;
+}
+.graybox2{
+	background-color: #d9d9d9;
+	padding:20px 20px;
+	margin-bottom:25px;
+}
+.graybox2 h6{
+	margin-bottom:12px;
+	font-weight:600;
+	font-size: 18px;
+}
+
+/* 16. Subcription Area CSS */
+
+.subscription-area p{
+	color:#fff
+}
+
+.subscription input[type="text"] {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 10px 10px;
+  border-radius:0px;
+  position: relative;
+  color: #000;
+}
+.subscription input[type="submit"] {
+	position: absolute;
+	font-size: 18px;
+	width: 100px;
+	padding: 11px;
+	border-radius:0px;
+	color: #fff;
+	background-color: #2b1cd8;
+	border: 0;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+
+
+/* 19. Footer Area CSS */
+.footer-area {
+  background-color: #000;
+  padding: 50px 0;
+  color: #fff;
+}
+.footer-area a {
+  color: #fff;
+}
+.footer-area p {
+  font-size: 18px;
+  color: #fff;
+}
+.footer-area li{
+	list-style: none;
+	margin:5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
